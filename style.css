@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
+:root {
+  --bg-color: #FFA62F;
+  --primary-color: #FFE8C8;
+  --secundary-color: #42af02;
+  --font: Handjet;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    font-family: var(--font);
+    height: 100vh;
+    margin: 0;
+  }
+
+  header {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 1px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    color: var(--bg-color);
+    font-weight: 700;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+  }
+
+  
